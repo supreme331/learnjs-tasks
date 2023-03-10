@@ -1,0 +1,29 @@
+#push-me {
+    cursor: pointer;
+}
+
+#push-me span {
+    color: green;
+}
+
+#push-me span:first-child {
+    display: inline;
+}
+#push-me.open span:first-child {
+    display: none;
+}
+
+#push-me span:last-child {
+    display: none;
+}
+
+#push-me.open span:last-child {
+    display: inline;
+}
+
+ul {
+    display: none;
+}
+ul.open {
+    display: block;
+}

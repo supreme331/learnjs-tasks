@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="01_task.css">
+    <title>Модальное диалоговое окно с формой</title>
+</head>
+<body>
+<h1>Кликните на кнопку ниже</h1>
+<input type="button" id="show-form" value="Кликните, чтобы увидеть форму"/>
+
+<div id="prompt-form-container">
+    <form id="prompt-form">
+        <div id="prompt-message">Введите что-нибудь...
+            <br>Пожалуйста..</div>
+        <input name="text" type="text">
+        <input type="submit" value="Ok">
+        <input type="button" name="cancel" value="Отмена">
+    </form>
+</div>
+
+<script src="01_task.js"></script>
+</body>
+</html>

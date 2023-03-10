@@ -1,0 +1,7 @@
+.tree__item > span {
+    cursor: pointer;
+}
+
+.tree__item > span:hover {
+    font-weight: bold;
+}
